@@ -73,7 +73,6 @@ $ curl --request POST \
 $ curl --request POST \
   --url http://localhost:5000/api/v1/grade \
   --header 'Content-Type: application/json' \
-  --header 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36' \
   --data '{
     "problem_id": "sample-problem",
     "language": "Python",
