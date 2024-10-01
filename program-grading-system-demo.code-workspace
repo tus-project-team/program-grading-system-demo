@@ -3,5 +3,13 @@
     { "path": "frontend" },
     { "path": "backend" },
     { "path": "repos" }
-  ]
+  ],
+  "extensions": {
+    "recommendations": [
+      "rust-lang.rust-analyzer",
+      "bradlc.vscode-tailwindcss",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
 }
